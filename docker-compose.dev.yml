@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  openssl:
+    # image: ubuntu:22.04
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - .:/openssl

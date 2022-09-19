@@ -1,0 +1,11 @@
+{
+  "name": "Existing Docker Compose (Extend)",
+  "dockerComposeFile": ["../docker-compose.dev.yml", "docker-compose.yml"],
+  "service": "openssl",
+  "workspaceFolder": "/openssl",
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#005555"
+    }
+  }
+}
